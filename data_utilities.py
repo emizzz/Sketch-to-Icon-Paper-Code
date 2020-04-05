@@ -363,7 +363,7 @@ def contour_img(img):
   img = np.zeros_like(img)
 
   # On this output, draw all of the contours that we have detected
-  # in white, and set the thickness to be 3 pixels
+  # in white, and set the thickness to be 1 pixel
   cv2.drawContours(img, contours, -1, 255, 1)
 
   if _3d:
